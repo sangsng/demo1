@@ -1,9 +1,21 @@
 package demo;
 
+import java.util.Date;
+
 public class Person {
     private String name;
     private String password;
     private int age;
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
+    }
+
+    private Date birthday;
 
     public String getName() {
         return name;
