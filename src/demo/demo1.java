@@ -54,7 +54,7 @@ public class demo1{
         System.out.println(p.getPassword());
         System.out.println(p.getAge());
         System.out.println(p.getBirthday());
-        //System.out.println("");
+        System.out.println("");
     }
 
 
