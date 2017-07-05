@@ -1,6 +1,8 @@
 package demo;
 
+import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 /**
@@ -10,7 +12,22 @@ import java.util.List;
 public class Demo2 {
     public static void main(String[] args) {
         List<String> list = new ArrayList<String>();
-        list.add("11");
-        list.get(0);
+        list.add("aa");
+        list.add("bb");
+        list.add("cc");
+
+        Iterator<String> it= list.iterator();
+        while(it.hasNext()){
+            String str=it.next();
+            System.out.println(str);
+        }
+        for (String a:list
+             ) {
+            System.out.println(a);
+            
+        }
+        for (int i = 0; i < list.size(); i++) {
+            System.out.println(list.get(i));
+        }
     }
 }
