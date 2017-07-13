@@ -16,7 +16,9 @@
 <p>
     Session ID:<%=session.getId()%><br>
     <hr>
-    <a href="session_page2.jsp" target="_blank">跳转到session_page2</a>
+<a href="session_page2.jsp" target="_blank">跳转到session_page2</a><br>
+<%= page.toString()
+%>
 </p>
 
 </body>

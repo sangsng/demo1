@@ -2,6 +2,7 @@ package demo
 
 /**
  * Created by Sangsng on 2017/7/11.
+ * @param 求数字的递归合计
  */
 tailrec fun sum(n: Int, res: Int): Int {
     if (n <= 0) {
@@ -13,4 +14,5 @@ tailrec fun sum(n: Int, res: Int): Int {
 
 fun main(args: Array<String>) {
     println(sum(5000000, 0))
+
 }
