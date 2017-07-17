@@ -9,8 +9,8 @@ public class demo5 {
     }
 
     /**
-     * @param min 最小
-     * @param max 最大
+     * @param min 最小数
+     * @param max 最大数
      * @return 两个正整数之间的素数数量
      */
     public static int hasPrimeNum(int min, int max) {
