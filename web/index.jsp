@@ -11,6 +11,14 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <h1>bean</h1>
+  <hr>
+ <jsp:useBean id="myUser" class="demo.Users" scope="page"/>
+  <%
+      myUser.setUsername("admin");
+      myUser.setPassword("123");
+  %>
+  name=<%=myUser.getUsername()%><br>
+  password=<%=myUser.getPassword()%>
   </body>
 </html>

@@ -101,4 +101,16 @@ public class demo1 {
         System.out.println(bean.getAge());
         System.out.println(bean.getBirthday());
     }
+    @Test
+    public void test4(){
+        testInterface t= new testInterface() {
+            @Override
+            public void test1() {
+                System.out.println("hahah");
+            }
+        };
+        t.test1();
+        testInterface ti=new testInterfaceImp();
+        ti.test1();
+    }
 }
