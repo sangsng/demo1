@@ -9,5 +9,6 @@ public class testInterfaceImp implements testInterface {
     @Override
     public void test1() {
         System.out.println("test!");
+
     }
 }
